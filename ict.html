@@ -31,40 +31,56 @@
 
 <body>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top ">
-    <div class="container d-flex align-items-center">
-
-      <h1 class="logo me-auto"><a href="index.html">Madhavi Mali</a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          
-          <li class="dropdown"><a href="#"><span>Subjects</span> <i class="bi bi-chevron-down"></i></a>
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top ">
+        <div class="container d-flex align-items-center">
+    
+          <h1 class="logo me-auto"><a href="index.html">Madhavi Mali</a></h1>
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+    
+          <nav id="navbar" class="navbar">
             <ul>
-              <li><a href="#">ICT</a></li>
-              <li><a href="#">WPD</a></li>
-              <li><a href="#">PIC</a></li>
-              <li><a href="#">POD</a></li>
-              <li><a href="#">DSU</a></li>
+              <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+              <li><a class="nav-link scrollto" href="#about">About</a></li>
+              
+              <li class="dropdown"><a href="#"><span>Subjects</span> <i class="bi bi-chevron-down"></i></a>
+                <ul>
+                  <li><a href="ict.html">ICT</a></li>
+                  <li><a href="#">WPD</a></li>
+                  <li><a href="#">PIC</a></li>
+                  <li><a href="#">POD</a></li>
+                  <li><a href="#">DSU</a></li>
+                </ul>
+              </li>
+              <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+              
             </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-          
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
+            <i class="bi bi-list mobile-nav-toggle"></i>
+          </nav><!-- .navbar -->
+    
+        </div>
+      </header><!-- End Header -->
+      <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
 
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+          <h1>'Knowledge is <br>Power'</h1>
+          <!--<h2>~Madhavi Mali</h2>-->
+          <div class="d-flex justify-content-center justify-content-lg-start">
+            <a href="#about" class="btn-get-started scrollto">Get Started</a>
+            <a href="#" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Tutorial Videos</span></a>
+          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+          <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+        </div>
+      </div>
     </div>
-  </header><!-- End Header -->
-    <!-- ======= Hero Section ======= -->
-    <section id="hero" class="d-flex align-items-center">
-        <img src="assets/img/hero-img.png" height="100%" width="30%" style="display: block; margin-right: auto; margin-left: auto;">
-      </section><!-- End Hero -->
+
+  </section><!-- End Hero -->
       <section id="about" class="about">
         <div  style="text-align: center; color: rgb(30, 109, 255);">
             <u><h2>ICT</h2></u>
@@ -92,3 +108,21 @@
 </i><li><a href="assets/ict/exp18_exp19_exp20.pdf"><i class="fa fa-file" style="color: rgb(30, 109, 255);;"></i>&nbsp;Experiment - 19</a></li>
 </i><li><a href="assets/ict/exp18_exp19_exp20.pdf"><i class="fa fa-file" style="color: rgb(30, 109, 255);;"></i>&nbsp;Experiment - 20</a></li>        
     </ul>
+
+    <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
