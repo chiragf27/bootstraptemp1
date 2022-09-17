@@ -1856,7 +1856,9 @@ section {
 }
 .profile-img
 {
-  float: right;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .subjects ul {
   list-style-type: none;
