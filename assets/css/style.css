@@ -1854,3 +1854,18 @@ section {
     padding-top: 4px;
   }
 }
+.profile-img
+{
+  float: right;
+}
+.subjects ul {
+  list-style-type: none;
+  display: inline-block;
+  align-items: left;
+}
+.subjects ul li {
+  display: inline;
+}
+a {
+  color: black;
+}
